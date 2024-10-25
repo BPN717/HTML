@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1><b>Fill in the Form</b></h1>
+    <form>
+        Name:<br>
+        <input type="text" name="Fullname" required><br>
+        Email:<br>
+        <input type="email" name="Email" required><br>
+        Tel.nr:<br>
+        <input type="number" required><br>
+        Task name:<br>
+        <input type="text" required><br>
+        Task description:<br>
+        <textarea rows="4" cols="40">Enter here</textarea><br>
+        Task duration:<br>
+        <input type="time" name="time"><br>
+        Agreement due date:<br>
+        <input type="date" name="date" required><br>
+        Job due date:<br>
+        <input type="date" name="date" required><br>
+        Suitable for:<br>
+        <select>
+            <option value="All">All</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select><br>
+        How to take contact:<br>
+        <input type="radio" name="option" value="By telephone" checked="checked">By telephone
+        <input type="radio" name="option" value="By Email">By email
+        <input type="radio" name="option" value="Meeting">Meeting<br>
+        Work place:<br>
+        <input type="text" name="work place"><br><br>
+        <button>submit</button> 
+        <button>reset</button>
+
+    </form>
+</body>
+</html>
